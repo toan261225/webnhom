@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Project</title>
+</head>
+<body >
+    <header>
+        <div class="header" id="header">
+            <a href="index.html" class="logo"><img src="./img/Logo-Group.png" alt=""></a>
+ 
+             <nav id="navbar" class="navbar">
+                 <ul>
+                   <li><a href="index.html" ><i class="fa-solid fa-house"></i>Home</a></li>
+                   <li><a href="about.html" >About</a></li>
+                   <li><a href="group-diary.html">Group Diary</a></li>
+                   <li><a href="project.html" >Project</a></li>
+                   <li><a href="result.html" >Result</a></li>
+                   <li><a href="contact.html">Contact</a></li>     
+                   <li><a style="color: chocolate; font-size: 1.4rem;  border: 1px rgb(245, 170, 72) solid;border-radius: 0.8rem; padding: 0.3rem;" href="./Project-group/project-group.html" target="_blank">Go To Project</a></li>   
+                </ul>
+                
+               </nav>
+ 
+        </div>
+     </header>
+
+    <main >
+        <!-- Tab links -->
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Requirement')">Requirement</button>
+            <button class="tablinks" onclick="openTab(event, 'Design')">Design</button>
+            <button class="tablinks" onclick="openTab(event, 'Implementation')">Implementation</button>
+        </div>
+  
+        <!-- Tab content -->
+        <div id="Requirement" class="tabcontent">
+            <h3>Requirement</h3>
+            <div class="table-requirement">
+                <table>
+                    <tr>
+                        <th>STT</th>
+                        <th>Chức năng</th>
+                        <th>Người đề xuất</th>
+                        <th>Người thiết kế</th>
+                        <th>Người thực hiện</th>
+                        <th>Thời gian dự kiến</th>
+                        <th>Trạng thái</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>All</td>
+                        <td>Lư Ngọc Trúc</td>
+                        <td>Lương Hà</td>
+                        <td>Lương Hà</td>
+                        <td>1 Tuần</td>
+                        <td>Đã hoàn thành</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Tour</td>
+                        <td>Lư Ngọc Trúc</td>
+                        <td>Lư Ngọc Trúc</td>
+                        <td>Lư Ngọc Trúc</td>
+                        <td>1 Tuần</td>
+                        <td>Đã hoàn thành</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Khách hàng</td>
+                        <td>Lư Ngọc Trúc</td>
+                        <td>Nguyễn Văn Thanh</td>
+                        <td>Nguyễn Văn Thanh</td>
+                        <td>1 Tuần</td>
+                        <td>Đã hoàn thành</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Đối tác</td>
+                        <td>Lư Ngọc Trúc</td>
+                        <td>Nguyễn Quang Toàn</td>
+                        <td>Nguyễn Quang Toàn</td>
+                        <td>1 Tuần</td>
+                        <td>Đã hoàn thành</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Khiếu nại</td>
+                        <td>Lư Ngọc Trúc</td>
+                        <td>Nguyễn Quang Toàn</td>
+                        <td>NGuyễn Quang Toàn</td>
+                        <td>1 Tuần</td>
+                        <td>Đã hoàn thành</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Login/Register</td>
+                        <td>Phan Văn Thi</td>
+                        <td>Phan Văn Thi</td>
+                        <td>Phan Văn Thi</td>
+                        <td>1 Tuần</td>
+                        <td>Đang làm</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Vé máy bay</td>
+                        <td>Phan Văn Thi</td>
+                        <td>Phan Văn Thi</td>
+                        <td>Phan Văn Thi</td>
+                        <td>1 Tuần</td>
+                        <td>Đang Làm</td>
+                    </tr>
+                 
+                </table>
+            </div>
+        </div>
+
+       <!-- Tab Design -->
+        <div id="Design" class="tabcontent">
+           <div class="tab-container-tablink-design">
+                <div class="tablink-design">
+                    <button onclick="handleImageTabs(event, 'tab1')">Hình ảnh 1</button>
+                    <button onclick="handleImageTabs(event, 'tab2')">Hình ảnh 2</button>
+                    <button onclick="handleImageTabs(event, 'tab3')">Hình ảnh 3</button>
+                    <button onclick="handleImageTabs(event, 'tab4')">Hình ảnh 4</button>
+                    <button onclick="handleImageTabs(event, 'tab5')">Hình ảnh 5</button>
+                </div>
+                <div class="tab-content-tablink-design">
+                    <div id="tab1" class="tab-image-design">
+                        <img src="img1.jpg" alt="Image 1">
+                    </div>
+                    <div id="tab2" class="tab-image-design">
+                        <img src="image2.jpg" alt="Image 2">
+                    </div>
+                    <div id="tab3" class="tab-image-design">
+                        <img src="image3.jpg" alt="Image 3">
+                    </div>
+                    <div id="tab4" class="tab-image-design">
+                        <img src="image4.jpg" alt="Image 4">
+                    </div>
+                    <div id="tab5" class="tab-image-design">
+                        <img src="image5.jpg" alt="Image 5">
+                    </div>
+
+
+                    
+                </div>
+            </div>
+            
+        </div>
+  
+        <div id="Implementation" class="tabcontent">
+            <h3>Implementation</h3>
+            <button class="tablinks" onclick="showProjectTabs()">Web Project</button>
+    
+    <div id="projectTabs" style="display:none;">
+        <div class="tab">
+            <button class="tablinks" onclick="openProjectTab(event, 'All')">All</button>
+            <button class="tablinks" onclick="openProjectTab(event, 'Tour')">Tour</button>
+            <button class="tablinks" onclick="openProjectTab(event, 'KhachHang')">Khách Hàng</button>
+            <button class="tablinks" onclick="openProjectTab(event, 'DoiTac')">Đối Tác</button>
+            <button class="tablinks" onclick="openProjectTab(event, 'KhieuNai')">Khiếu Nại</button>
+            <button class="tablinks" onclick="openProjectTab(event, 'LogIn')">Log In</button>
+        <button class="tablinks" onclick="openProjectTab(event, 'SignUp')">Sign Up</button>
+        </div>
+
+        <div id="All" class="projectTabContent" style="display:none;">
+            <h4>All Projects</h4> 
+            <table id="tourTable">
+            <thead>
+                <tr>
+                    <th>Mã</th>
+                    <th>Mã tour</th>
+                    <th>Tour</th>
+                    <th>Khách hàng</th>
+                    <th>Nhân viên chăm sóc</th>
+                    <th>Trạng thái</th>
+                    <th>Ngày giờ</th>
+                    <th>Ghi chú</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>353</td>
+                    <td>3d312A</td>
+                    <td>Châu Âu 10N9D</td>
+                    <td>Nguyễn Văn Phong<br>Sđt: 0876543221</td>
+                    <td>Trần Trung Nghĩa<br>Số máy: 1234</td>
+                    <td>Đã thanh toán</td>
+                    <td>01/08/2024 9h34p am</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>352</td>
+                    <td>Fe312A</td>
+                    <td>Tour Cao Bằng Trong Ngày: Thác Bản Dốc - Di Tich Pắc Pó - Lũng Luông - Động Ngườm Ngao</td>
+                    <td>Trương Thị Hoa<br>Sđt: 0987632415</td>
+                    <td>Lương Thị Thu Hằng<br>Số máy: 12578</td>
+                    <td>Đã thanh toán</td>
+                    <td>10/09/2014 7h00p am</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>569</td>
+                    <td>62A73</td>
+                    <td>Tour Phú Thọ Trong Ngày: Đền Quốc Âu Cơ - Đồi Chè Long Cốc - Hang Lạng </td>
+                    <td>Nguyễn Thị Xoan<br>Sđt: 0975382432</td>
+                    <td>Trần Trung Kiên<br>Số máy: 12423</td>
+                    <td>Đã thanh toán.</td>
+                    <td>20/09/2024 8h34p am</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>437</td>
+                    <td>12A35</td>
+                    <td> Châu Phi 18C5A: Ai Cập - Khu Kim Tự Tháp Giza - Sa mạc Trắng  </td>
+                    <td>Nguyễn Đăng Khoa<br>Sđt: 0958603785</td>
+                    <td>Trần Văn Quảng<br>Số máy: 1346</td>
+                    <td>Đã thanh toán</td>
+                    <td>13/11/2024 13h00p am</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>437</td>
+                    <td>12A35</td>
+                    <td>Châu Phi 18C5A: Ai Cập- Sông Nile  </td>
+                    <td>Lê Thị Hân<br>Sđt: 0998754321</td>
+                    <td>Trương Thị Kim Ngọc<br>Số máy: 1346</td>
+                    <td>Đã thanh toán</td>
+                    <td>27/11/2024 8h00p am</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>437</td>
+                    <td>12A35</td>
+                    <td> Châu Âu  10N9D: London - Tháp Đồng Hò Big Ben - Lâu Đài Warwick - Cung điện Buckingham -  </td>
+                    <td>Nguyễn Thị Hạnh<br>Sđt: 0389765461</td>
+                    <td>Đỗ Quang Dũng<br>Số máy: 1136</td>
+                    <td>Đã thanh toán</td>
+                    <td>17/12/2024 19h00p pm</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>437</td>
+                    <td>12A35</td>
+                    <td> Châu Âu 10N9D: Ý - Tháp nghiên Pisa   </td>
+                    <td>Nguyễn Văn Trung<br>Sđt: 0321879566</td>
+                    <td>Trần Thị Kim Phụng<br>Số máy: 1575</td>
+                    <td>Đã thanh toán</td>
+                    <td>19/12/2024 17h00p am</td>
+                    <td></td> 
+                </tr>
+                <tr>
+                    <td>437</td>
+                    <td>12A35</td>
+                    <td> Châu Âu 10N9D:  Đức - Thành phố cảng Hamburg </td>
+                    <td>Đoàn Ngọc Phương <br>Sđt: 0918934586</td>
+                    <td>Ngô Thanh Hân<br>Số máy: 1456</td>
+                    <td>Đã thanh toán</td>
+                    <td>30/12/2024 22h00p pm</td>
+                    <td></td>
+                </tr>
+                <!-- Thêm các hàng khác nếu cần -->
+            </tbody>
+        </table>
+    </div>
+        </div>
+        
+        <div id="Tour" class="projectTabContent" style="display:none;">
+            <h4>Tour Projects</h4>
+            <!-- Nội dung cho tab Tour -->
+        </div>
+        </table>
+        <div id="KhachHang" class="projectTabContent" style="display:none;">
+            <h4>Khách Hàng Projects</h4>
+            <table>
+         	<tr>
+                    <th>STT</th>
+                    <th>Họ và tên</th>
+                    <th>Thông tin liên lạc</th>
+                    <th>Nơi sống</th>
+                    <th>Mã tour</th>
+                    <th>Tour</th>
+                    <th>Ngày giờ</th>
+                    <th>Ghi chú</th>
+                </tr>
+           
+                <tr>
+                    <td>353</td>
+                    <td>Nguyễn Văn Phong</td>
+                    <td>Sđt: 0876543221</td>
+                    <td>TP.Hồ Chí Minh</td>
+                    <td>3d312A</td>
+                    <td>Châu Âu 10N9D</td>
+                    <td>01/11/2024 9h34p pm</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>352</td>
+                    <td>Trương Thị Hoa</td>
+                    <td>Sđt: 0987632415 </td>
+                    <td>Thủ đô Hà Nội</td>
+                    <td>Fe312A</td>
+                    <td>Tour Cao Bằng Trong Ngày: Thác Bản Dốc - Di Tich Pắc Pó - Lũng Luông - Động Ngườm Ngao</td>
+                    <td>10/09/2014 7h00p am</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>569</td>
+                    <td>Nguyễn Thị Xoan</td>
+                    <td>Sđt: 0975382432</td>
+                    <td>Hải Phòng</td>
+                    <td>62A73</td>
+                    <td>Tour Phú Thọ Trong Ngày: Đền Quốc Âu Cơ - Đồi Chè Long Cốc - Hang Lạng </td>
+                    <td>20/09/2024 8h34p am</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>158</td>
+                    <td>Nguyễn Thị Xoan</td>
+                    <td>Sđt: 0975382432</td>
+                    <td>Quảng Ninh</td>
+                    <td>31A09</td>
+                    <td>Tour Ninh Bình Trong Ngày: Hà Nội - Hoa Lư - Tràng An - Hang Múa</td>
+                    <td>10/01/2024 10h34p pm</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>437</td>
+                    <td>Nguyễn Đăng Khoa</td>
+                    <td>Sđt:0958603785 </td>
+                    <td>Hà Nội</td>
+                    <td>12A35</td>
+                    <td> Châu Phi 18C5A: Ai Cập - Khu Kim Tự Tháp Giza - Sa mạc Trắng  </td>
+                    <td>13/10/2024 13h00p am</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>134</td>
+                    <td>Lê Thị Hân</td>
+                    <td>Sđt: 0998754321</td>
+                    <td>Gia Lai</td>
+                    <td>12A35</td>
+                    <td>Châu Phi 18C5A: Ai Cập- Sông Nile  </td>
+                    <td>27/09/2024 8h00p am</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>678</td>
+                    <td>Nguyễn Thị Hạnh</td>
+                    <td>Sđt: 0389765461</td>
+                    <td>Bình Dương</td>
+                    <td>12A35</td>
+                    <td> Châu Âu  10N9D: London - Tháp Đồng Hò Big Ben - Lâu Đài Warwick - Cung điện Buckingham -  </td>
+                    <td>17/12/2024 19h00p pm</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>864</td>
+                    <td>Nguyễn Văn Trung</td>
+                    <td>Sđt: 0321879566</td>
+                    <td>Bà Rịa - Vũng Tàu</td>
+                    <td>12A35</td>
+                    <td> Châu Âu 10N9D: Ý - Tháp nghiên Pisa   </td>
+                    <td>19/12/2024 17h00p am</td>
+                    <td></td> 
+                </tr>
+                <tr>
+                    <td>356</td>
+                    <td>Đoàn Ngọc Phương</td>
+                    <td>Sđt: 0918934586</td>
+                    <td>Cần Thơ</td>
+                    <td>12A35</td>
+                    <td> Châu Âu 10N9D:  Đức - Thành phố cảng Hamburg </td>
+                    <td>30/12/2024 22h00p pm</td>
+                    <td></td>
+                </tr>
+        </table>
+        </div>
+
+        <div id="DoiTac" class="projectTabContent" style="display:none;">
+            <h4>Đối Tác</h4>
+            
+            <label for="filterType">Lọc</label>
+<select id="filterType" onchange="filterPartners()" class="filter-dropdown">
+    <option value="">Tất cả</option>
+    <option value="Hợp tác chiến lược">Hợp tác chiến lược</option>
+    <option value="Hợp tác lâu dài">Hợp tác lâu dài</option>
+</select>
+
+<input type="text" id="searchPartner" class="search-input" placeholder="Tìm kiếm theo thời gian (VD: 01/01/2024)" onkeyup="searchPartner()">
+            
+            <form id="partnerForm">
+                <label for="service">Dịch vụ hợp tác:</label>
+                <select id="service" name="service" required>
+                    <option value="Hợp tác chiến lược">Hợp tác chiến lược</option>
+                    <option value="Hợp tác lâu dài">Hợp tác lâu dài</option>
+                </select>
+                <br>
+                <label for="name">Tên Dịch Vụ:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="contact-info">Email hoặc SĐT:</label>
+                <input type="text" id="contact-info" name="contact-info" placeholder="Nhập Email hoặc SĐT" required>
+                <br>
+                <label for="message">Nội Dung:</label>
+                <input type="text" id="contact-info" name="contact-info" placeholder="Nhập dịch vụ hoặc trên Công TY" required>
+                <br>
+                <button type="submit">Gửi Yêu Cầu</button>
+            </form>
+            
+            <table id="partnerTable">
+                <tr>
+                    <th>STT</th>
+                    <th>Dịch vụ cần hợp tác</th>
+                    <th>Tên Dịch Vụ</th>
+                    <th>Thông Tin Liên Hệ</th>
+                    <th>Nội Dung</th>
+                    <th>Thời Gian</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Hợp tác chiến lược</td>
+                    <td>Dịch vụ A</td>
+                    <td>emailA@example.com</td>
+                    <td>Nội dung hợp tác A</td>
+                    <td>01/01/2024</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Hợp tác lâu dài</td>
+                    <td>Dịch vụ B</td>
+                    <td>emailB@example.com</td>
+                    <td>Nội dung hợp tác B</td>
+                    <td>02/01/2024</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Hợp tác chiến lược</td>
+                    <td>Dịch vụ C</td>
+                    <td>emailC@example.com</td>
+                    <td>Nội dung hợp tác C</td>
+                    <td>03/01/2024</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Hợp tác lâu dài</td>
+                    <td>Dịch vụ D</td>
+                    <td>emailD@example.com</td>
+                    <td>Nội dung hợp tác D</td>
+                    <td>04/01/2024</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Hợp tác chiến lược</td>
+                    <td>Dịch vụ E</td>
+                    <td>emailE@example.com</td>
+                    <td>Nội dung hợp tác E</td>
+                    <td>05/01/2024</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="KhieuNai" class="projectTabContent" style="display:none;">
+            <h4>Khiếu Nại Projects</h4>
+            
+            <label for="filterComplaintType">Lọc</label>
+<select id="filterComplaintType" onchange="filterComplaints()" class="filter-dropdown">
+    <option value="">Tất cả</option>
+    <option value="Đang xử lý">Đang xử lý</option>
+    <option value="Đã giải quyết">Đã giải quyết</option>
+</select>
+
+<input type="text" id="searchComplaint" class="search-input" placeholder="Tìm kiếm theo thời gian (VD: 01/01/2024)" onkeyup="searchComplaint()">
+            
+            <form id="complaintForm">
+                <label for="customer-name">Họ và Tên:</label>
+                <input type="text" id="customer-name" name="customer-name" required>
+                <br>
+                <label for="contact-info-complaint">Email hoặc SĐT:</label>
+                <input type="text" id="contact-info-complaint" name="contact-info-complaint" placeholder="Nhập Email hoặc SĐT" required>
+                <br>
+                <label for="complaint">Nội Dung Khiếu Nại:</label>
+                <textarea id="complaint" name="complaint" required></textarea>
+                <br>
+                <button type="submit">Gửi Khiếu Nại</button>
+            </form>
+            <table id="complaintTable">
+                <tr>
+                    <th>STT</th>
+                    <th>Tên Khách Hàng</th>
+                    <th>Nội Dung Khiếu Nại</th>
+                    <th>Thông Tin Liên Hệ</th>
+                    <th>Thời Gian</th>
+                    <th>Trạng Thái</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Nguyễn Thị Trà Mi</td>
+                    <td>Chuyến xe không đến địa điểm du lịch đúng giờ</td>
+                    <td>883587267847832</td>
+                    <td>11/16/2024, 6:31:31 PM</td>
+                    <td>Đang xử lý</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Nguyễn Quang Toàn</td>
+                    <td>Hướng dẫn viên có thái độ không tốt</td>
+                    <td>883587267847832</td>
+                    <td>11/16/2024, 6:31:25 PM</td>
+                    <td>Đã giải quyết</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Phan Văn Thi</td>
+                    <td>Khu du lịch không có dịch vụ ăn uống</td>
+                    <td>883587267847832</td>
+                    <td>11/16/2024, 6:31:07 PM</td>
+                    <td>Đang xử lý</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Lư Ngọc Trúc</td>
+                    <td>Vòi hoa sen không thể sử dụng</td>
+                    <td>883587267847832</td>
+                    <td>11/16/2024, 6:31:00 PM</td>
+                    <td>Đang xử lý</td>
+                </tr>
+            </table>
+        </div>
+        <div id="LogIn" class="projectTabContent" style="display:none;">
+            <h4>Log In</h4>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+        <div id="SignUp" class="projectTabContent" style="display:none;">
+            <h4>Sign Up</h4>
+            <form>
+                <label for="new-username">Username:</label>
+                <input type="text" id="new-username" name="new-username" required>
+                <br>
+                <label for="new-email">Email:</label>
+                <input type="email" id="new-email" name="new-email" required>
+                <br>
+                <label for="new-password">Password:</label>
+                <input type="password" id="new-password" name="new-password" required>
+                <br>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>     
+    </main>
+
+    <footer>
+        <p>© Copyright GROUP 05. All Rights Reserved</p>
+        <p>Designed by GROUP 05</p>
+    </footer>
+    
+    <!--  -->
+    <script>
+        function openTab(evt, tabName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+// Web project
+
+function showProjectTabs() {
+    document.getElementById('projectTabs').style.display = 'block';
+}
+
+function openProjectTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+
+    // Ẩn tất cả các tab nội dung
+    tabcontent = document.getElementsByClassName("projectTabContent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";  
+    }
+
+    // Xóa class "active" khỏi tất cả các tablinks
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Hiển thị tab nội dung hiện tại và thêm class "active" cho nút đã nhấn
+    document.getElementById(tabName).style.display = "block";  
+    evt.currentTarget.className += " active";
+}
+let projectTabsVisible = false; // Biến để theo dõi trạng thái hiển thị của các tab
+
+function showProjectTabs() {
+    const projectTabs = document.getElementById('projectTabs');
+    
+    if (projectTabsVisible) {
+        projectTabs.style.display = 'none'; // Ẩn các tab nếu chúng đang hiển thị
+        projectTabsVisible = false; // Cập nhật trạng thái
+    } else {
+        projectTabs.style.display = 'block'; // Hiển thị các tab nếu chúng không đang hiển thị
+        projectTabsVisible = true; // Cập nhật trạng thái
+    }
+}
+  HEAD
+// đói tác
+document.getElementById('partnerForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Ngăn chặn hành động gửi mặc định
+
+    // Lấy giá trị từ các ô input
+    const service = document.getElementById('service').value;
+    const nameService = document.getElementById('name').value; // Tên Dịch Vụ
+    const contactInfo = document.getElementById('contact-info').value;
+    const message = document.getElementById('contact-info').value;
+
+    // Lấy thời gian hiện tại
+    const currentTime = new Date().toLocaleString(); // Định dạng thời gian theo múi giờ hiện tại
+
+    // Tạo một hàng mới trong bảng
+    const table = document.getElementById('partnerTable');
+    const newRow = table.insertRow(table.rows.length); // Thêm hàng mới vào cuối bảng
+
+    // Thêm dữ liệu vào các ô của hàng mới
+    const cell1 = newRow.insertCell(0);
+    const cell2 = newRow.insertCell(1);
+    const cell3 = newRow.insertCell(2); // Thêm ô cho Tên Dịch Vụ
+    const cell4 = newRow.insertCell(3);
+    const cell5 = newRow.insertCell(4); // Thêm ô cho Nội Dung
+    const cell6 = newRow.insertCell(5); // Thêm ô cho Thời Gian
+
+    cell1.innerHTML = table.rows.length - 1; // Cập nhật STT
+    cell2.innerHTML = service; // Dịch vụ hợp tác
+    cell3.innerHTML = nameService; // Tên Dịch Vụ
+    cell4.innerHTML = contactInfo; // Thông tin liên hệ
+    cell5.innerHTML = message; // Nội dung
+    cell6.innerHTML = currentTime; // Thời gian
+
+    // Xóa nội dung ô input sau khi gửi
+    document.getElementById('partnerForm').reset();
+});
+
+function filterPartners() {
+    const filter = document.getElementById("filterType").value.toLowerCase();
+    const table = document.getElementById("partnerTable");
+    const rows = table.getElementsByTagName("tr");
+
+    for (let i = 1; i < rows.length; i++) { // Bắt đầu từ 1 để bỏ qua tiêu đề
+        const cells = rows[i].getElementsByTagName("td");
+        const service = cells[1].textContent.toLowerCase(); // Lấy nội dung ô dịch vụ cần hợp tác
+        if (filter === "" || service.includes(filter)) {
+            rows[i].style.display = ""; // Hiển thị hàng
+        } else {
+            rows[i].style.display = "none"; // Ẩn hàng
+        }
+    }
+}
+// ô khiếu nại
+function searchComplaint() {
+ const input = document.getElementById('searchComplaint');
+    const filter = input.value.toLowerCase();
+    const table = document.getElementById('complaintTable');
+    const tr = table.getElementsByTagName('tr');
+
+    // Lặp qua tất cả các hàng trong bảng
+    for (let i = 1; i < tr.length; i++) {
+        const td5 = tr[i].getElementsByTagName('td')[4]; // Ô thời gian
+        if (td5) {
+            const txtValue = td5.textContent || td5.innerText;
+            if (txtValue.toLowerCase().indexOf(filter) > -1) {
+                tr[i].style.display = ""; // Hiển thị hàng
+            } else {
+                tr[i].style.display = "none"; // Ẩn hàng
+            }
+        }
+    }
+}
+document.getElementById('complaintForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Ngăn chặn hành động gửi mặc định
+
+    // Lấy giá trị từ các ô input
+    const customerName = document.getElementById('customer-name').value;
+    const contactInfoComplaint = document.getElementById('contact-info-complaint').value;
+    const complaintMessage = document.getElementById('complaint').value;
+
+    // Lấy thời gian hiện tại
+    const currentTime = new Date().toLocaleString(); // Định dạng thời gian theo múi giờ hiện tại
+
+    // Tạo một hàng mới trong bảng
+    const table = document.getElementById('complaintTable');
+    const newRow = table.insertRow(1); // Thêm hàng mới vào vị trí đầu tiên
+
+    // Thêm dữ liệu vào các ô của hàng mới
+    const cell1 = newRow.insertCell(0);
+    const cell2 = newRow.insertCell(1);
+    const cell3 = newRow.insertCell(2);
+    const cell4 = newRow.insertCell(3);
+    const cell5 = newRow.insertCell(4); // Thêm ô cho thời gian
+    const cell6 = newRow.insertCell(5); // Thêm ô cho trạng thái
+
+    cell1.innerHTML = 1; // STT
+    cell2.innerHTML = customerName; // Tên Khách Hàng
+    cell3.innerHTML = complaintMessage; // Nội Dung Khiếu Nại
+    cell4.innerHTML = contactInfoComplaint; // Thông Tin Liên Hệ
+    cell5.innerHTML = currentTime; // Thời gian
+    cell6.innerHTML = "Chưa xử lý"; // Trạng Thái
+
+    // Cập nhật lại STT cho tất cả các hàng
+    for (let i = 1; i < table.rows.length; i++) {
+        table.rows[i].cells[0].innerHTML = i; // Cập nhật STT
+    }
+
+    // Xóa nội dung ô input sau khi gửi
+    document.getElementById('complaintForm').reset();
+});
+function filterComplaints() {
+    const filter = document.getElementById("filterComplaintType").value.toLowerCase();
+    const table = document.getElementById("complaintTable");
+    const rows = table.getElementsByTagName("tr");
+
+    for (let i = 1; i < rows.length; i++) {
+        const cells = rows[i].getElementsByTagName("td");
+        const status = cells[5].textContent.toLowerCase();
+        if (filter === "" || status.includes(filter)) {
+            rows[i].style.display = "";
+        } else {
+            rows[i].style.display = "none";
+        }
+    }
+}
+        // Hiển thị hình ảnh ở tab Design
+        function handleImageTabs(evt, tabId) {
+            var tabImages = document.getElementsByClassName("tab-image-design");
+            var tabLinks = document.querySelectorAll(".tablink-design button");
+
+            Array.from(tabImages).forEach(tab => {
+                tab.style.display = "none";
+            });
+
+            tabLinks.forEach(link => {
+                link.classList.remove("active");
+            });
+
+            document.getElementById(tabId).style.display = "block";
+            evt.currentTarget.classList.add("active");
+        }
+
+    </script>
+</body>
+</html>
