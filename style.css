@@ -670,3 +670,33 @@ textarea {
     outline: none; /* Ẩn outline mặc định */
     box-shadow: 0 0 5px rgba(102, 175, 233, 0.5); /* Đổ bóng khi focus */
 }
+.marquee {
+    overflow: hidden; /* Ẩn phần chữ ra ngoài */
+    white-space: nowrap; /* Không cho chữ xuống dòng */
+    box-sizing: border-box;
+    font-size: 2rem; /* Tăng kích thước chữ */
+    position: relative; /* Để sử dụng vị trí tương đối cho chữ */
+}
+
+.marquee p {
+    display: inline-block;
+    animation: marquee 10s linear infinite; /* Chạy ngang liên tục */
+}
+
+@keyframes marquee {
+    0% { 
+        transform: translateX(100%); /* Bắt đầu từ bên phải (ra khỏi lề) */
+        opacity: 1; /* Hiện tại */
+    }
+    90% { 
+        transform: translateX(-100%); /* Chạy đến bên trái (ra khỏi lề) */
+     
+    }
+    100% { 
+        transform: translateX(100%); /* Quay lại bên phải (ra khỏi lề) */
+        opacity: 1; /* Xuất hiện lại */
+    }
+    10% { 
+        opacity: 1; /* Hiện tại */
+    }
+}
